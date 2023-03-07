@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="490.0" prefWidth="714.0" xmlns="http://javafx.com/javafx/17.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.facialrecognition.Controller">
+   <children>
+      <Button layoutX="96.0" layoutY="440.0" mnemonicParsing="false" onAction="#takePhotoButtonClick" prefHeight="26.0" prefWidth="140.0" text="TAKE PHOTO" textAlignment="CENTER" />
+      <Button layoutX="461.0" layoutY="440.0" mnemonicParsing="false" onAction="#inputPhotoButtonClick" prefHeight="26.0" prefWidth="140.0" text="SCAN IMAGE" />
+      <Button layoutX="287.0" layoutY="32.0" mnemonicParsing="false" onAction="#showPhotoButton" prefHeight="26.0" prefWidth="140.0" text="SHOW IMAGE" />
+      <ImageView fx:id="camView" fitHeight="340.0" fitWidth="416.0" layoutX="137.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
